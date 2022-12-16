@@ -18,6 +18,8 @@
 }
 
 header{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
 }
 
 main{
@@ -39,4 +41,38 @@ main{
     font-weight: 600;
     font-size: 16px;
     gap: 6px;
+}
+
+.search-notifications{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.notifications-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    align-items: center;
+}
+
+.actions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.actions :first-of-type{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.actions img{
+    grid-row: 1/3;
+}
+
+.buttons-section{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 15px
 }
