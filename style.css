@@ -20,6 +20,7 @@
 header{
     display: grid;
     grid-template-rows: 1fr 2fr;
+    padding: 5px 25px;
 }
 
 main{
@@ -75,4 +76,20 @@ main{
     display: grid;
     grid-template-columns: 100px 100px 100px;
     gap: 15px
+}
+
+main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 15px;
+}
+
+.projects{
+    grid-row: 1/3;
+}
+
+.projects-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
