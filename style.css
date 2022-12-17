@@ -200,7 +200,7 @@ h4{
 
 .announcements-card{
     background-color: white;
-    padding: 25px;
+    padding: 10px 25px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.1),
                 -5px -5px 10px rgba(0,0,0,0.1);
     border-radius: 8px;
@@ -225,3 +225,47 @@ h5{
     border: none;
 }
 
+.trending-card{
+    background-color: white;
+    padding: 25px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1),
+                -5px -5px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    display: grid;
+    gap: 15px;
+}
+
+.trending-card-section{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+
+.trending-card-section img{
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+    grid-row: 1/3;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.trending-card-section p{
+    margin: 0px 0px 3px 15px;
+    font-size: 14px;
+}
+
+.trending-card-section :last-child{
+    color: rgb(104, 103, 103);
+}
+
+h3{
+    margin:0px 0px 7px 0px;
+}
+
+.announcements-area{
+    grid-row: 1/2;
+}
+
+.trending-area{
+    grid-row: 2/3;
+}
