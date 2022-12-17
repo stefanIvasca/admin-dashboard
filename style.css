@@ -99,7 +99,7 @@ header{
 
 main{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 1.1fr;
     padding: 25px;
     gap: 20px;
 }
@@ -197,3 +197,31 @@ h4{
     height: 20px;
     width: 20px;
 }
+
+.announcements-card{
+    background-color: white;
+    padding: 25px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1),
+                -5px -5px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.article{
+    border-bottom: solid  1px rgb(211, 211, 211);
+}
+
+h5{
+    margin: 15px 0px 4px 0px;
+    font-size: 15px;
+}
+
+.article p{
+    margin: 0px 0px 15px 0px;
+    color: rgb(104, 103, 103);
+    font-size: 12px;
+}
+
+.announcements-card :last-child{
+    border: none;
+}
+
