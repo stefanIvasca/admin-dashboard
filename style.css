@@ -100,7 +100,8 @@ header{
 main{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    padding: 15px;
+    padding: 25px;
+    gap: 20px;
 }
 
 .projects{
@@ -110,7 +111,7 @@ main{
 .projects-cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    gap: 25px;
 }
 
 .search-notifications img{
@@ -163,4 +164,36 @@ button{
     font-weight: bold;
     font-size: 25px;
     margin: 0px;
+}
+
+.project-card{
+    background-color: white;
+    padding: 25px;
+    box-shadow: inset 10px 0px 0px rgb(255, 152, 56),
+                5px 5px 10px rgba(0,0,0,0.1),
+                -5px -5px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h4{
+    margin: 4px 0px;
+}
+
+.project-card p{
+    color: rgb(104, 103, 103);
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.card-icons{
+    display: grid;
+    grid-template-columns: 20px 20px 20px;
+    gap: 15px;
+    justify-content: end;
+}
+
+.project-card img{
+    height: 20px;
+    width: 20px;
 }
